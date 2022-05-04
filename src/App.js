@@ -1,9 +1,9 @@
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-    </div>
-  );
-}
+import React from "react";
+
+import Game from "./components/Game";
+
+const App = () => {
+  return <Game />;
+};
 
 export default App;
